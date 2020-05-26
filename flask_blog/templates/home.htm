@@ -1,0 +1,7 @@
+{% extends 'index.htm' %} {% block content %}
+<h1>Home Page</h1>
+{% for i in posts %}
+<h3>{{ i.name }}</h3>
+<p>{{ i.age }}</p>
+<p>{{ i.Comment }}</p>
+{% endfor %} {% endblock content%}
